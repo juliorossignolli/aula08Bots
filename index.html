@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Aula 08 Bootstrap</title>
+        <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+                <meta name="viewport" content="width=device-width, initial-scale=1">
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div style="border: thin solid red; border-radius: 6px" class="container">
+        <div class="row justify-content-center">
+            <h1>Julio</h1>
+        </div>
+        <div class="container-fluid">
+            <div style="font-weight: bold" class="row justify-content-center">Aula 08 - Bootstrap</div>
+        </div>
+    </div>
+    <div style="margin-top: 30px; text-align:center" class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="row">
+                <div style="border: thin solid purple; border-radius: 6px" class="col-sm-4">20 anos</div>
+                <div style="border: thin solid purple; border-radius: 6px" class="col-sm-4">Desenvolvedor</div>
+                <div style="border: thin solid purple; border-radius: 6px" class="col-sm-4">Estudante do IFSP</div> 
+            </div>
+        </div>
+    </div>
+    <div style="margin-top: 30px" class="container">
+        <div style="border: thin solid red; border-radius: 6px" class="row">
+            <div class="col">
+                O que foi apresentado na aula:
+            </div>
+            <div style="border: thin solid greenyellow; border-radius: 6px" class="col-md-auto">
+                Como manter colunas com a largura flexivel utilizando bootstrap
+            </div>
+        </div>    
+    </div>
+    <div style="margin-top: 30px" class="container">
+        <div class="row">
+            <div style="border: thin solid lightblue; border-radius: 6px" class="col-sm-4">Algumas colunas menores</div>
+            <div style="border: thin solid lightcoral; border-radius: 6px" class="col-sm-8">Outras colunas maiores... Com mais espaço para escrever</div>
+        </div>
+    </div>
+    <div style="margin-top: 30px" class="container">
+        <div class="row justify-content-center">
+            <div style="border: thin solid black; border-radius: 6px" class="row">
+                <div style="border: thin solid black; border-radius: 6px" class="col">Fazer</div>
+                    <div style="border: thin solid black; border-radius: 6px" class="col">tabela</div>
+                <div class="w-100"></div>
+                    <div style="border: thin solid black; border-radius: 6px" class="col">com</div>
+                    <div style="border: thin solid black; border-radius: 6px" class="col">diversos</div>
+                <div class="w-100"></div>
+                    <div style="border: thin solid black; border-radius: 6px" class="col">campos</div>
+                <div style="border: thin solid black; border-radius: 6px" class="col">diferentes</div>
+            </div>  
+        </div>      
+    </div>
+    <div style="margin-top: 30px" class="container-fluid">
+        <div style="height:200px; widget:100vh; border: 1px solid black;" class="col row align-items-center">
+            <div class="col">
+                Criar colunas
+            </div>
+            <div class="col">
+                dentro do
+            </div>
+            <div class="col">
+                container no meio
+            </div>
+        </div>       
+    </div>
+    <div class="container-fluid">
+        <div style="height:200px; widget:100vh; margin-top: 20px; border: 1px solid black;" class="col row align-items-top">
+            <div class="col">
+                Criar colunas
+            </div>
+            <div class="col">
+                dentro do
+            </div>
+            <div class="col">
+                container em cima
+            </div>
+        </div>       
+    </div>
+    <div class="container-fluid">
+        <div style="height:200px; widget:100vh; margin-top: 20px; border: 1px solid black;" class="col row align-items-end">
+            <div class="col">
+                Criar colunas
+            </div>
+            <div class="col">
+                dentro do
+            </div>
+            <div class="col">
+                container em baixo
+            </div>
+        </div>       
+    </div>
+    <div style="margin-top: 30px; border: thin solid yellow; border-radius: 6px" class="container">
+        <div style="margin-top: 20px" class="row justify-content-start">
+            <div class="col-4">Criar colunas</div>
+            <div class="col-4">em diversos</div>
+        </div>
+        <div style="margin-top: 20px" class="row justify-content-center">
+            <div class="col-4">pontos diferentes</div>
+            <div class="col-4">da pagina</div>
+        </div>
+        <div style="margin-top: 20px" class="row justify-content-end">
+            <div class="col-4">bootstrap permite</div>
+            <div class="col-4">que voce movimente isso</div>
+        </div>
+    </div>
+    <div style="margin-top: 30px; border: thin solid lightgoldenrodyellow; border-radius: 6px" class="container">
+        <div style="margin-top: 20px" class="row justify-content-between">
+            <div class="col-4">
+                Permite tambem
+            </div>
+            <div class="col-4">
+                utilizar diversos 
+            </div>
+        </div>
+        <div class="row justify-content-around">
+            <div class="col-4">
+                pontos diferentes
+            </div>
+            <div class="col-4">
+                da tela
+            </div>
+        </div>
+    </div>
+    <div style="margin-top: 30px; margin-bottom: 30px; border: thin solid lightseagreen; border-radius: 6px" class="row">
+        <div class="col-4">Ainda que o conteudo presente dentro do conteiner estoure o limite maximo<br></div>
+        <div class="col-6">Ele mantem a responsividade realizando a quebra de linha<br></div>
+    </div>
+    <div>
+        <h3>Pode ser dividido em 12 partes:</h3>
+    </div>
+    <div style="margin-top: 30px; text-align:center" class="container-fluid">
+        <div class="row">
+            <div style="border: thin solid purple; border-radius: 6px" class="col">-</div>
+            <div style="border: thin solid purple; border-radius: 6px" class="col">-</div>
+            <div style="border: thin solid purple; border-radius: 6px" class="col">-</div>
+            <div style="border: thin solid purple; border-radius: 6px" class="col">-</div>
+            <div style="border: thin solid purple; border-radius: 6px" class="col">-</div>
+            <div style="border: thin solid purple; border-radius: 6px" class="col">-</div>
+            <div style="border: thin solid purple; border-radius: 6px" class="col">-</div>
+            <div style="border: thin solid purple; border-radius: 6px" class="col">-</div>
+            <div style="border: thin solid purple; border-radius: 6px" class="col">-</div>
+            <div style="border: thin solid purple; border-radius: 6px" class="col">-</div>
+            <div style="border: thin solid purple; border-radius: 6px" class="col">-</div>
+            <div style="border: thin solid purple; border-radius: 6px" class="col">-</div>
+            <div style="border: thin solid purple; border-radius: 6px" class="col">-</div>                
+        </div>
+    </div>                  
+</body>
+</html>
